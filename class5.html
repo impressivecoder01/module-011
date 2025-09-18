@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind flex layout and responsive flex</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <section class="bg-yellow-300 sm:bg-red-200 lg:bg-gray-800">
+        <h1 class="text-3xl">my responsive section</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, aliquid quidem delectus alias dolor molestiae deserunt perferendis? Quae vel incidunt aperiam est omnis sit minima sint saepe ipsum! Dolorum, veniam sed dolores optio quod omnis quam aut beatae modi sit, rerum consequuntur eligendi. Harum.</p>
+    </section>
+    <section class="lg:flex">
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 1</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 2</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 3</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 4</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 5</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-96 w-96 text-5xl m-2">item 6</div>
+    </section>
+    <section class="flex justify-between">
+        <div class="bg-blue-200 border-2 border-red-900 h-24 w-24 text-3xl m-2">item 1</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-24 w-24 text-3xl m-2">item 2</div>
+        <div class="bg-blue-200 border-2 border-red-900 h-24 w-24 text-3xl m-2">item 3</div>
+    </section>
+</body>
+</html>
